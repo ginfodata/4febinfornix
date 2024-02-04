@@ -1,0 +1,125 @@
+*
+        {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+/* body{
+  background-color: red;
+}
+.appmain-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.appcenter-container{
+  height: 500px;
+  width: 350px;
+} */
+
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.hold h1 {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  text-justify: calc(0% - 1000px);
+}
+
+.cold {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+ font-weight: 900;
+ position: relative;
+ 
+}
+h1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0%;
+  background-color: white;
+  transition: all ease 1s;
+}
+
+h1:hover::after{
+width: 100%;
+}
+
+p {
+  color: #666;
+}
+
+/* Add more styles for other elements as needed */
+
+
+
+/* NavigationBar.css */
+.navbar {
+  background-color: white;
+  display: flex;
+  position: absolute;
+  width:10px;
+  
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content:left;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.nav-list li:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: #555;
+}
+
+/* footer */
+
+footer {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  position: absolute;
+  bottom: 0vh;
+  width: 100%;
+  align-items: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
